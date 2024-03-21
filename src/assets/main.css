@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+:root {
+  --ocre: #D1451E;
+  --coral: #F0633C;
+  --verde: #2A7A5C;
+  --creme: #F4F6F3;
+  --cinza: #444444;
+  --cinza-claro: #EFEFEF;
+  --branco: #FFF;
+
+  --inter: "Inter", sans-serif;
+  --domine: "Domine", serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background-color: inherit;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--creme);
+  color: var(--cinza);
+}
+
+.subtitulo-lg {
+  font-size: 1.9375em;
+  font-family: var(--inter);
+
+  line-height: 150%;
+}
+
+.paragrafo {
+  font-size: 1.125em;
+  line-height: 150%; 
+}
+
+@media only screen and (max-width: 767px) {
+  .subtitulo-lg {
+    font-size: 1.625em;
+  }
+}
